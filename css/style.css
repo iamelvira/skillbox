@@ -1,0 +1,83 @@
+html {
+    font-family: monospace;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(19, 177, 124, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    flex-grow: 2;
+    background-color: rgba(19, 177, 124, 0.2);
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: rgba(31, 233, 165, 0.6);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside button {
+    font-family: monospace;
+    border-radius: 2px;
+    border:  1px solid rgba(19, 177, 124, 1);
+    padding: 20px;
+    padding: 2px 5px;
+    display: block;
+    margin: 20px;
+    color: rgba(19, 177, 124, 1);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 20px;
+    background-color: rgba(31, 233, 165, 0.6);
+    margin: 0 auto 20px;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.game {
+    background-color: rgba(31, 233, 165, 0.8);
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+footer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: rgba(19, 177, 124, 0.8);
+    color: rgba(255, 255, 255, 1);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
